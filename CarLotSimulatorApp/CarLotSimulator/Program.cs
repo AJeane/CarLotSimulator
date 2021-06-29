@@ -18,10 +18,27 @@ namespace CarLotSimulator
             //Set the properties for each of the cars
             //Call each of the methods for each car
 
+          
             //*************BONUS*************//
 
             // Set the properties utilizing the 3 different ways we learned about, one way for each car
 
+
+
+            Car ferrari = new Car();
+            ferrari.Year = 2001;
+            ferrari.Make = "Ferrari";
+            ferrari.Model = "360 Modena";
+            ferrari.EngineNoise = "Vreeeeem";
+            ferrari.HonkNoise = "Hnnnnnnk";
+            ferrari.IsDrivable = true;
+
+            ferrari.MakeEngineNoise();
+            ferrari.MakeEngineNoise();
+
+            //
+
+            Car volvo = new Car() { Year = 2014, Make = "Volvo", Model = "S60", EngineNoise = "Shreummm", HonkNoise = "Hnnnnnnngk" };
             //*************BONUS X 2*************//
 
             //Create a CarLot class
